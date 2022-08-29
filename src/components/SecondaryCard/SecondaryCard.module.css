@@ -1,0 +1,46 @@
+.container {
+    min-width: 200px;
+    /* width: 200px; */
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.sub_container {
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.flex_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.zero_margin {
+    margin: 0px;
+}
+
+.rating {
+    margin-bottom: 15px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.type {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    color: grey;
+}
+
+.number {
+    margin: 0px;
+    margin-bottom: 15px;
+
+}

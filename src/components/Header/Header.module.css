@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    padding-bottom: 150px;
+    /* height: 300px; */
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.total_followers {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    color: grey;
+}
+
+.switch_container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: flex-start;
+        padding: 20px 20px;
+        padding-bottom: 150px;
+    }
+    .switch_container {
+        border-top: 1px solid black;
+        margin-top: 20px;
+        width: 100%;
+    }
+  }
